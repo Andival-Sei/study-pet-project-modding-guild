@@ -1,11 +1,12 @@
 @use '../../scss/variables' as *;
 
 .header {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 20px 0;
+  background-color: transparent	;
+  padding: 10px 0;
   position: sticky;
   inset-block-start: 0;
   z-index: 100;
+	border-block-end: 2px solid $bg-darker;
 
   &__content {
     display: flex;
