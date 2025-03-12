@@ -1,5 +1,6 @@
 // Импорт всех SCSS файлов
 @use 'variables' as *; // as * позволяет использовать переменные без префикса
+@use 'fonts';
 @use 'reset';
 @use 'global';
 @use '../components/header/header';
