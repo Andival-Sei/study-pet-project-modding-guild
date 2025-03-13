@@ -1,0 +1,81 @@
+@use '../../scss/variables' as *;
+@use '../../scss/mixins' as *;
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 70vh;
+	text-align: center;
+
+  &__title {
+    font-family: $font-heading;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-block-end: 0.5rem;
+    background: $title-gradient;
+    background-clip: text;
+    color: transparent;
+    @include non-selectable;
+  }
+
+  &__subtitle {
+		color: $secondary-text-color;
+    font-size: 1.2rem;
+    margin-block-end: 2rem;
+    max-width: 600px;
+    font-weight: 500;
+    @include non-selectable;
+  }
+
+	&__actions {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 0 30px;
+  }
+}
+
+.button {
+	color: $light-gray;
+	font-weight: 600;
+  background-color: $secondary-text-color;
+  inline-size: 8rem;
+  block-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 8px;
+  @include box_shadow(4);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    @include box_shadow(5);
+  }
+
+  &:hover:active {
+    transform: translateY(5px);
+    @include box_shadow(3);
+  }
+
+  &--start {
+    background: $gradient-button-start;
+  }
+
+  &--youtube {
+    background: $gradient-button-youtube;
+  }
+}
+
+
+@media (max-width: $breakpoint-md) {
+  .welcome {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}

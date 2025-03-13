@@ -12,7 +12,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        introduction: resolve(__dirname, 'src/pages/introduction.html')
+        introduction: resolve(__dirname, 'src/pages/introduction/introduction.html')
       },
       output: {
         // Эта настройка сохранит структуру директорий для HTML файлов

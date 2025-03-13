@@ -1,8 +1,10 @@
 // Импорт всех SCSS файлов
 @use 'variables' as *; // as * позволяет использовать переменные без префикса
+@use 'mixins' as *;
 @use 'fonts';
 @use 'reset';
 @use 'global';
 @use '../components/header/header';
+@use '../pages/welcome/welcome';
 
 // Дополнительные импорты можно добавлять по мере создания файлов

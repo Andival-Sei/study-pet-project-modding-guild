@@ -3,9 +3,7 @@
   font-family: 'Inter';
   src:
     url('../fonts/inter/Inter-VariableFont_opsz,wght.woff2') format('woff2-variations'),
-    url('../fonts/inter/Inter-VariableFont_opsz,wght.woff') format('woff-variations'),
-    url('../fonts/inter/Inter-VariableFont_opsz,wght.ttf') format('truetype-variations');
-  font-weight: 100 900; /* Диапазон весов от 100 до 900 */
+    url('../fonts/inter/Inter-VariableFont_opsz,wght.woff') format('woff-variations');
   font-style: normal;
   font-display: swap;
 }
@@ -15,9 +13,7 @@
   font-family: 'Inter';
   src:
     url('../fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff2') format('woff2-variations'),
-    url('../fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff') format('woff-variations'),
-    url('../fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype-variations');
-  font-weight: 100 900; /* Диапазон весов от 100 до 900 */
+    url('../fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff') format('woff-variations');
   font-style: italic;
   font-display: swap;
 }
@@ -27,9 +23,8 @@
   font-family: 'Manrope';
   src:
     url('../fonts/manrope/Manrope-VariableFont_wght.woff2') format('woff2-variations'),
-    url('../fonts/manrope/Manrope-VariableFont_wght.woff') format('woff-variations'),
-    url('../fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 200 800; /* Диапазон весов для Manrope обычно от 200 до 800 */
+    url('../fonts/manrope/Manrope-VariableFont_wght.woff') format('woff-variations');
+  // font-weight: 200 800;
   font-style: normal;
   font-display: swap;
 }

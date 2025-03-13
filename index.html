@@ -4,16 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заготовка сайта</title>
+    <include src="./src/components/fonts/fonts.html"></include>
+    <title>Modding Guild</title>
   </head>
   <body>
     <include src="./src/components/header/header.html"></include>
 
     <main class="container">
-      <section class="section">
-        <h1>Добро пожаловать на мой учебный сайт!</h1>
-        <p>Это шаблон для изучения веб-разработки с использованием HTML, SCSS и JavaScript.</p>
-        <a href="/src/pages/introduction.html" class="btn">Узнать больше</a>
+      <section class="section welcome">
+        <h1 class="welcome__title">The Elder Scrolls V: Skyrim Anniversary Edition</h1>
+        <p class="welcome__subtitle">Руководство по моддингу Скайрима во всех его аспектах.</p>
+        <div class="welcome__actions">
+          <a href="/src/pages/introduction/introduction.html" class="button button--start"
+            >Начать</a
+          >
+          <a
+            href="https://www.youtube.com/@andiguild"
+            class="button button--youtube"
+            target="_blank"
+            >YouTube</a
+          >
+        </div>
       </section>
     </main>
 

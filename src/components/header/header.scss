@@ -1,12 +1,12 @@
 @use '../../scss/variables' as *;
 
 .header {
-  background-color: transparent	;
+  background-color: transparent;
   padding: 10px 0;
   position: sticky;
   inset-block-start: 0;
   z-index: 100;
-	border-block-end: 2px solid $bg-darker;
+  border-block-end: 2px solid $bg-darker;
 
   &__content {
     display: flex;
@@ -18,11 +18,15 @@
     font-weight: 700;
 
     h2 {
+			font-family: 'Manrope', sans-serif;
       margin-block-end: 0;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
 
       span {
         color: $primary-color;
+        background: $title-gradient;
+        background-clip: text;
+        color: transparent;
       }
     }
   }
