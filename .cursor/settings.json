@@ -1,0 +1,14 @@
+{
+  "projectContext": {
+    "language": "ru",
+    "os": "windows",
+    "description": "Проект по созданию руководства по моддингу Skyrim Anniversary Edition",
+    "techStack": ["HTML", "SCSS", "JavaScript", "Vite"],
+    "targetAudience": "Начинающие моддеры Skyrim",
+    "developmentEnvironment": {
+      "os": "Windows 10",
+      "shell": "Git Bash",
+      "editor": "Cursor"
+    }
+  }
+}
