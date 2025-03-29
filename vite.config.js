@@ -5,7 +5,10 @@ import includeHtml from 'vite-include-html-plugin';
 export default defineConfig({
   plugins: [
     includeHtml()
-  ],
+	],
+	server: {
+    open: true // Эта опция автоматически откроет браузер
+  },
   build: {
     outDir: 'dist',
     emptyOutDir: true,
